@@ -1,0 +1,126 @@
+Create folder
+
+cd G:\Supriya\PhonePe
+
+
+Create new environment
+python -m venv phonepe_env
+
+
+
+
+
+Activate environment
+
+.\phonepe_env\Scripts\Activate.ps1
+
+
+
+
+
+
+
+Install required libraries
+pip install pandas numpy matplotlib streamlit
+
+pip list
+
+if you want to deactivate virtual enviroment
+
+deactivate
+
+git clone https://github.com/PhonePe/pulse.git
+
+
+cd pulse
+cd data
+cd aggregated
+
+
+
+Or Alternative way
+
+cd .\data\aggregated                       .\ means “current folder”
+
+
+python code.py
+
+
+
+
+
+
+
+
+
+
+Step-by-Step: Push your project to GitHub
+
+
+1. Go to your project folder
+
+cd G:\Supriya\PhonePe
+
+2. Initialize Git
+
+git init
+
+
+git rm -r --cached phonepe_env
+
+3. Add all files
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/SupriyaSakshana/PhonePe-Data-Analysis.git
+
+git branch -M main
+
+git pull origin main --rebase
+
+git push -u origin main
+
+
+
+
+:wq is a command used in the Vim (and also Vi) editor.
+
+👉 Meaning:
+
+:w → write (save the file)
+
+:q → quit (exit the editor)
+
+
+
+
+
+
+
+phonepe_env/
+.venv/
+__pycache__/
+*.pyc
+
+👉 This means:
+
+phonepe_env/ → ignore your environment folder
+
+.venv/ → ignore other env
+
+__pycache__ → ignore Python cache
+
+*.pyc → ignore compiled files
+
+
+
+streamlit run streamapp.py
+
+
+
+CTRL C    To stop running processgit 
+
+
+https://scre.io/
